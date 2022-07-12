@@ -22,8 +22,6 @@ body {
     height: 50px;
     float: left;
     padding-left: 10px;
-
-
 }
 
 .navigation {
@@ -52,7 +50,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     height: 700px;
-    max width: 1200px;
+    max-width: 1200px;
     margin: 40px auto 40px auto;
     display: flex;
 
@@ -60,4 +58,6 @@ body {
 
 .text-over {
     margin: auto;
+    background-color: black;
+    width: 100%;
 }
