@@ -75,3 +75,37 @@ body {
     width: 300px;
     padding: 10px 10px;
 }
+
+.banner {
+    height: 500px;
+    max-width: 1200px;
+    margin: 40px auto auto auto;
+    padding-top: 85px;
+    background-image: url("images/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.text-top {
+    font-size: 43px;
+    font-weight: bold;
+}
+
+.box-container {
+    max-width: 1050px;
+    margin: 15px auto auto auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    height: 300px;
+    padding: 20px;
+    margin-bottom: auto;
+    flex-basis: 30%;
+    box-sizing: border-box;
+    background-color: black;
+    opacity: 0.8;
+}
+
